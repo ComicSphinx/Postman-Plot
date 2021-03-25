@@ -11,6 +11,7 @@ passed = text['totalPass']
 failed = text['totalFail']
 tests_labels = ['passed', 'failed']
 yticks = [passed, failed]
+
 tests = [passed, failed]
 
 mpl.rcParams['toolbar'] = 'none'
