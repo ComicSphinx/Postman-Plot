@@ -4,7 +4,7 @@ import json
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-with open('test_result.json', 'r') as file:
+with open('Get.postman_test_run.json', 'r') as file:
     text = json.load(file)
 
 passed = text['totalPass']
